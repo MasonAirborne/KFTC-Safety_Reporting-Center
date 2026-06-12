@@ -1,1 +1,297 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
+<title>KFTC Safety & Reporting Center</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700;800&display=swap" rel="stylesheet">
+
+<style>
+
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:'Poppins',sans-serif;
+}
+
+body{
+background:#ffffff;
+color:#0B2341;
+}
+
+.hero{
+background:linear-gradient(135deg,#0B2341,#153B66);
+color:white;
+padding:80px 20px;
+overflow:hidden;
+}
+
+.hero-container{
+max-width:1200px;
+margin:auto;
+display:flex;
+align-items:center;
+justify-content:space-between;
+flex-wrap:wrap;
+gap:40px;
+}
+
+.hero-text{
+flex:1;
+min-width:300px;
+}
+
+.hero-text h1{
+font-size:4rem;
+font-weight:800;
+line-height:1;
+margin-bottom:20px;
+}
+
+.hero-text .red{
+color:#D62828;
+}
+
+.hero-text p{
+font-size:1.15rem;
+line-height:1.7;
+max-width:600px;
+}
+
+.hero-image{
+flex:1;
+text-align:center;
+}
+
+.hero-image img{
+max-width:100%;
+height:auto;
+max-height:450px;
+}
+
+.section{
+padding:80px 20px;
+}
+
+.container{
+max-width:1200px;
+margin:auto;
+}
+
+.section-title{
+text-align:center;
+font-size:2.5rem;
+font-weight:700;
+margin-bottom:50px;
+}
+
+.cards{
+display:flex;
+justify-content:center;
+gap:40px;
+flex-wrap:wrap;
+}
+
+.card{
+background:white;
+width:450px;
+padding:40px;
+border-radius:20px;
+box-shadow:0 10px 30px rgba(0,0,0,.08);
+transition:.3s;
+}
+
+.card:hover{
+transform:translateY(-8px);
+}
+
+.icon{
+font-size:4rem;
+margin-bottom:20px;
+}
+
+.card h2{
+margin-bottom:15px;
+}
+
+.card p{
+line-height:1.8;
+margin-bottom:25px;
+color:#555;
+}
+
+.button{
+display:inline-block;
+padding:15px 28px;
+background:#D62828;
+color:white;
+text-decoration:none;
+border-radius:10px;
+font-weight:600;
+transition:.3s;
+}
+
+.button:hover{
+background:#b81f1f;
+}
+
+.anonymous{
+background:#F4F7FA;
+border-left:6px solid #D62828;
+max-width:1000px;
+margin:auto;
+padding:35px;
+border-radius:15px;
+}
+
+.anonymous h3{
+margin-bottom:10px;
+font-size:1.6rem;
+}
+
+.footer{
+background:#0B2341;
+color:white;
+text-align:center;
+padding:40px;
+margin-top:80px;
+}
+
+.footer h3{
+margin-bottom:10px;
+}
+
+.footer p{
+opacity:.9;
+}
+
+@media(max-width:900px){
+
+.hero-text h1{
+font-size:3rem;
+}
+
+.hero-container{
+text-align:center;
+}
+
+}
+
+</style>
+</head>
+
+<body>
+
+<section class="hero">
+
+<div class="hero-container">
+
+<div class="hero-text">
+
+<h1>
+REPORT.<br>
+<span class="red">IMPROVE.</span><br>
+PROTECT.
+</h1>
+
+<p>
+Welcome to the KFTC Safety & Reporting Center.
+A confidential place for students, instructors, and staff to report safety concerns, maintenance discrepancies, hazards, and operational issues.
+</p>
+
+</div>
+
+<div class="hero-image">
+
+<!-- PLACE YOUR AIRPLANE PNG HERE -->
+<img src="plane.png" alt="KFTC Aircraft">
+
+</div>
+
+</div>
+
+</section>
+
+<section class="section">
+
+<div class="container">
+
+<h2 class="section-title">
+Choose Your Report Type
+</h2>
+
+<div class="cards">
+
+<div class="card">
+
+<div class="icon">🛡️</div>
+
+<h2>Safety Report</h2>
+
+<p>
+Report hazards, incidents, close calls, unsafe conditions,
+weather concerns, ramp concerns, or any operational issue affecting safety.
+</p>
+
+<a href="YOUR-SAFETY-GOOGLE-FORM-LINK"
+class="button"
+target="_blank">
+Submit Safety Report
+</a>
+
+</div>
+
+<div class="card">
+
+<div class="icon">🔧</div>
+
+<h2>Maintenance / Squawk Report</h2>
+
+<p>
+Report aircraft discrepancies, equipment malfunctions,
+abnormal indications, broken items, or maintenance concerns.
+</p>
+
+<a href="YOUR-MAINTENANCE-GOOGLE-FORM-LINK"
+class="button"
+target="_blank">
+Submit Maintenance Report
+</a>
+
+</div>
+
+</div>
+
+</div>
+
+</section>
+
+<section class="section">
+
+<div class="anonymous">
+
+<h3>🔒 Reports May Be Submitted Anonymously</h3>
+
+<p>
+The purpose of this reporting system is continuous improvement.
+Please provide as much information as possible so we can identify hazards,
+correct deficiencies, and maintain a strong safety culture at KFTC.
+</p>
+
+</div>
+
+</section>
+
+<footer class="footer">
+
+<h3>Safety Is Everyone's Responsibility</h3>
+
+<p>KFTC Safety & Reporting Center</p>
+
+</footer>
+
+</body>
+</html>
